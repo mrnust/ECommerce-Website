@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    position: relative;
+    left: 30px;
+    width: 120px;
+    margin: 10px 40px;
+}
+header{
+    background-color: #2874f0;
+    position: sticky;
+    top: 0;
+}
+ul{
+    display: flex;
+}
+.navbar li{
+  list-style: none;
+  margin: 15px 25px;
+}
+.navbar li a:hover{
+    background-color: white;
+    color: black;
+  }
+.navbar li a{
+    color: white;
+    text-decoration: none;
+}
+.search{
+    display: flex;
+}
+.search input{
+    width: 340px;
+    height: 27px;
+    margin: 0px 13px;
+    padding: 0px 12px;
+    border-radius: 2px;
+}
+.img1 img{
+    width: 20px;
+    position: relative;
+    right: 40px;
+    top: 8px;
+}
+.container{
+    /* margin: 0px 0px; */
+    color: white;
+}
+.btn{
+    width: 80px;
+    height: 28px;
+    background-color: white;
+    color: #2874f0;
+    border: 2px solid white;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: #2874f0;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.text{
+    color: white;
+    font-size: 23px;
+    margin: 0px 50px;
+}
+.store{
+    height: 170px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.item{
+    text-align: center;
+    margin: 55px 62px;
+}
+.item img{
+    width: 50px;
+    height: 50px;
+}
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.explain{
+    margin: 8px 0px;
+    height: 350px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+}
+.button .bt{
+    background-color: #2874f0;
+    color: white;
+    width: 90px;
+    height: 35px;
+    border: 2px solid white;
+    position: relative;
+    right:-1224px;
+    top: -24px;
+}
+.ex img{
+    width: 90px;
+    height: 90px;
+}
+.ex{
+    display: flex;
+    flex-direction: column;
+    margin: 90px 88px;
+    align-items: center;
+}
+.advertisments{
+   margin: 10px 0px;
+}
+
+.advertisments img{
+    width: 100%;
+}
+footer{
+    background-color:#172337;
+    height: 400px;
+    color: white;
+}
+.row{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.foot{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 65px;
+}
+.foot a{
+    color: white;
+    text-decoration: none;
+    margin: 5px 0px;
+}
+.copyRight{
+    text-align: center;
+}
